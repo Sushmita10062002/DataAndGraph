@@ -1,0 +1,41 @@
+.InputTask>h2{
+   margin-top: 1.5rem
+}
+h3{
+  margin-bottom: 0;
+}
+
+.Add{
+  border: 2px solid  rgb(218, 185, 39);
+  border-radius: 4px;
+  background:  rgb(218, 185, 39);
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 20px;
+ }
+
+input{
+  width: 100%;
+  border: 2px solid rgb(226, 194, 10);
+  padding: 4px;
+  padding-right: 0px;
+  margin-top: 4px;
+  border-radius: 4px;
+}
+input:focus{
+  outline: none;
+  border: 3px solid rgb(226, 194, 10);
+}
+@media(max-width: 500px){
+  .Add{
+    width: 80%;
+    margin-left: 12%
+  }
+}
+@media(max-width: 250px){
+  .Add{
+    font-size: 16px;
+  }
+}
